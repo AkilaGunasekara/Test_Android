@@ -1,10 +1,10 @@
 class Recipe{
   String label;
-  String imgUrl;
+  String imageUrl;
 
   Recipe(
       this.label,
-      this.imgUrl,
+      this.imageUrl,
       );
   static List<Recipe> samples = [
     Recipe(
